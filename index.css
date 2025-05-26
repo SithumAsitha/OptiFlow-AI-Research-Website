@@ -173,6 +173,7 @@
 
 .card-section {
   width: 100%;
+  color: #64ffda;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
