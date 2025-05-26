@@ -7,7 +7,7 @@
     display: block;
     width: 2px;
     height: 100%;
-    background: #c6c6c6;
+    background: #64ffda; /* Teal timeline line */
     margin: 0 auto;
     position: absolute;
     top: 0;
@@ -51,13 +51,13 @@
 }
 
 .main-timeline .icon:before {
-    background: #fff;
-    border: 2px solid #232323;
+    background: #0a192f; /* Dark navy */
+    border: 2px solid #64ffda; /* Teal border */
     left: -3px
 }
 
 .main-timeline .icon:after {
-    border: 2px solid #c6c6c6;
+    border: 2px solid #1a365d; /* Medium blue border */
     left: 3px
 }
 
@@ -80,7 +80,7 @@
     content: "";
     width: 36.5%;
     height: 2px;
-    background: #c6c6c6;
+    background: #1a365d; /* Medium blue */
     margin: auto 0;
     position: absolute;
     top: 0;
@@ -112,13 +112,13 @@
 }
 
 .main-timeline .date-outer:before {
-    background: #fff;
-    border: 2px solid #232323;
+    background: #0a192f; /* Dark navy */
+    border: 2px solid #64ffda; /* Teal border */
     left: -6px
 }
 
 .main-timeline .date-outer:after {
-    border: 2px solid #c6c6c6;
+    border: 2px solid #1a365d; /* Medium blue border */
     left: 6px
 }
 
@@ -131,7 +131,7 @@
 }
 
 .month{
-    color: #232323;
+    color: #e8f4fc; /* Light text color */
 }
 
 .main-timeline .date {
@@ -151,25 +151,28 @@
     display: block;
     font-size: 30px;
     font-weight: 700;
-    color: #232323;
+    color: #64ffda; /* Teal accent color */
     line-height: 36px
 }
 
 .main-timeline .timeline-content {
     width: 50%;
     padding: 20px 0 20px 50px;
-    float: right
+    float: right;
+    color: #e8f4fc; /* Light text color */
 }
 
 .main-timeline .title {
     font-size: 19px;
     font-weight: 700;
     line-height: 24px;
-    margin: 0 0 15px 0
+    margin: 0 0 15px 0;
+    color: #64ffda; /* Teal accent for titles */
 }
 
 .main-timeline .description {
-    margin-bottom: 0
+    margin-bottom: 0;
+    color: #d1e8ff; /* Lighter text for description */
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
